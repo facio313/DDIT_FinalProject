@@ -1,0 +1,12 @@
+**
+!Dockerfile
+!nginx.conf
+!portfolio-demo/
+!portfolio-demo/**
+!source/
+!source/INUProject/
+!source/INUProject/webapp/
+!source/INUProject/webapp/resources/
+!source/INUProject/webapp/resources/images/
+!source/INUProject/webapp/resources/images/bgpic.jpg
+!source/INUProject/webapp/resources/images/MAIN.png

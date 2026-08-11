@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DDIT Final Project의 읽기 전용 포트폴리오 아카이브">
+  <title>DDIT Final Project · Portfolio Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="주요 링크">
+      <a class="brand" href="/">Bonifacio</a>
+      <a class="source-link" href="https://github.com/facio313/DDIT_FinalProject" target="_blank" rel="noopener noreferrer">Source ↗</a>
+    </nav>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">STATIC PORTFOLIO ARCHIVE · 2023</p>
+        <h1>DDIT<br>Final Project</h1>
+        <p class="lede">Java 8과 Spring MVC로 만든 취업 지원 플랫폼의 설계와 구현 범위를 기록한 읽기 전용 소개 페이지입니다.</p>
+      </div>
+      <figure class="identity">
+        <img src="assets/main.png" alt="INU 프로젝트 로고">
+        <figcaption>Original project asset</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main>
+    <section class="notice" aria-labelledby="archive-status">
+      <div class="status-dot" aria-hidden="true"></div>
+      <div>
+        <p class="section-label">DEPLOYMENT STATUS</p>
+        <h2 id="archive-status">원본 서버가 아닌 정적 아카이브입니다.</h2>
+        <p>원본 애플리케이션이 사용하던 외부 Oracle DB와 Gmail SMTP 자격정보는 제거했습니다. 로그인, 데이터 조회·수정, 이메일, 결제, WebSocket 기능은 이 공개 페이지에서 실행되지 않습니다.</p>
+      </div>
+    </section>
+
+    <section class="overview" aria-labelledby="project-overview">
+      <div>
+        <p class="section-label">PROJECT OVERVIEW</p>
+        <h2 id="project-overview">구직자와 기업을 잇는 팀 프로젝트</h2>
+      </div>
+      <p>채용 공고부터 이력서, 지원 절차, 전문가 서비스와 커뮤니티까지 하나의 Spring MVC 애플리케이션으로 구성했습니다. 현재 저장소에는 소스 코드와 설계 문서가 보존되어 있습니다.</p>
+    </section>
+
+    <section class="modules" aria-label="구현 모듈">
+      <article><span>01</span><h3>Recruitment</h3><p>채용 공고 검색, 지원서와 전형 절차 관리</p></article>
+      <article><span>02</span><h3>Career</h3><p>이력서, 자기소개서와 개인 프로필 구성</p></article>
+      <article><span>03</span><h3>Expert</h3><p>전문가 상품, 상담과 리뷰 흐름</p></article>
+      <article><span>04</span><h3>Community</h3><p>게시판, 공지, 문의와 알림 기능</p></article>
+    </section>
+
+    <section class="stack" aria-labelledby="technical-stack">
+      <div>
+        <p class="section-label">TECHNICAL STACK</p>
+        <h2 id="technical-stack">Legacy full-stack web</h2>
+      </div>
+      <ul>
+        <li>Java 8</li><li>Spring MVC 4</li><li>Spring Security</li><li>MyBatis</li>
+        <li>Oracle</li><li>JSP &amp; Tiles</li><li>WebSocket</li><li>Maven WAR</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>DDIT Final Project · preserved as an honest, read-only portfolio archive.</p>
+    <a href="/">← Bonifacio로 돌아가기</a>
+  </footer>
+</body>
+</html>

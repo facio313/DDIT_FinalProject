@@ -4,17 +4,17 @@
 
 ==공통서버 3가지==
 1. 레드마인(일정관리)
-http://112.220.114.130:83/redmine/projects
+http://***:83/redmine/projects
 아이디 : 202208_CKS
 비밀번호 : 11111111
 
 2. SVN Respository
-http://112.220.114.130:10001/svn/projects/202208F/team2
+http://***:10001/svn/projects/202208F/team2
 아이디 : 202208_CKS
 비밀번호 : java
 
 [Eclipse - SVN연결방법]
-http://112.220.114.130:10001/svn/projects/202208F/team2/source
+http://***:10001/svn/projects/202208F/team2/source
 1. 우측 상단 Open Perspactive 선택
 2. SVN Repository Exploring 선택
 3. 좌측 아이콘 중 New Repository Location 클릭
@@ -24,12 +24,11 @@ http://112.220.114.130:10001/svn/projects/202208F/team2/source
 7. 우클릭후 team-update 및 commit
 
 3. 오라클
-접속 이름 : TEAM2_202208F
-사용자 이름 : TEAM2_202208F
-비밀번호 : java
-호스트 이름 : 112.220.114.130
+접속 이름 : ***
+사용자 이름 : ***
+비밀번호 : ***
+호스트 이름 : ***
 
 ==일정==
 View : 프로젝트 초반 1주일 간 완성
 수료 일주일 전부터 취업 관련 일정 진행 => 그 전 주까지 어플리케이션 완성돼야 함
-
