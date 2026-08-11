@@ -2,8 +2,11 @@
 .classpath
 *.mp4
 .DS_Store
-*/target 
-*/bin
-*/build
-.settings
-.svn
+target/
+bin/
+build/
+.settings/
+.svn/
+.env
+.env.*
+!.env.example
