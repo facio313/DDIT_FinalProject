@@ -1,6 +1,8 @@
 **
 !Dockerfile
 !nginx.conf
+!scripts/
+!scripts/portfolio-auth-mode.sh
 !portfolio-demo/
 !portfolio-demo/**
 !source/

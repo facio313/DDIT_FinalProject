@@ -3,6 +3,12 @@ services:
     image: ${DDIT_FINALPROJECT_IMAGE:-ghcr.io/facio313/ddit-finalproject:latest}
     build:
       context: .
+      args:
+        PORTFOLIO_BRANCH: ${PORTFOLIO_BRANCH:?PORTFOLIO_BRANCH must be set}
+        PORTFOLIO_AUTH_MODE: ${PORTFOLIO_AUTH_MODE:?PORTFOLIO_AUTH_MODE must be set}
+    environment:
+      PORTFOLIO_BRANCH: ${PORTFOLIO_BRANCH:?PORTFOLIO_BRANCH must be set}
+      PORTFOLIO_AUTH_MODE: ${PORTFOLIO_AUTH_MODE:?PORTFOLIO_AUTH_MODE must be set}
     container_name: dditFinalProject
     ports:
       - "127.0.0.1:5179:80"
