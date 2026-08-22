@@ -29,3 +29,4 @@ RUN nginx -t
 
 EXPOSE 80
 ENTRYPOINT ["/usr/local/bin/portfolio-auth-mode", "exec", "--", "/docker-entrypoint.sh"]
+CMD ["nginx", "-g", "daemon off;"]
