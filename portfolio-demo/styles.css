@@ -19,6 +19,23 @@ a { color: inherit; }
 }
 .nav { display: flex; justify-content: space-between; align-items: center; max-width: 76rem; margin: 0 auto 10vh; }
 .brand { font-weight: 800; text-decoration: none; letter-spacing: -.04em; }
+.bonifacio-return-link {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding-inline: .25rem;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+.bonifacio-return-link:hover { border-bottom-color: var(--accent); }
+.bonifacio-return-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
 .source-link { padding: .65rem 1rem; border: 1px solid #8ea2bb; border-radius: 999px; text-decoration: none; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(16rem, .7fr); gap: 3rem; align-items: end; max-width: 76rem; margin: auto; }
 .eyebrow, .section-label { margin: 0 0 1rem; color: var(--accent); font: 700 .75rem/1.2 ui-monospace, monospace; letter-spacing: .14em; }
