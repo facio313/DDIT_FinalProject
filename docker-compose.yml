@@ -10,6 +10,9 @@ services:
       PORTFOLIO_BRANCH: ${PORTFOLIO_BRANCH:?PORTFOLIO_BRANCH must be set}
       PORTFOLIO_AUTH_MODE: ${PORTFOLIO_AUTH_MODE:?PORTFOLIO_AUTH_MODE must be set}
     container_name: dditFinalProject
+    cpus: 0.75
+    cpu_shares: 512
+    mem_limit: 64m
     ports:
       - "127.0.0.1:5179:80"
     restart: unless-stopped
